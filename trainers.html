@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---render all elements normally-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--font awesome library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!----main css template file-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>trainers |gym sport </title>
+
+</head>
+</head>
+
+<body>
+    <div class="social_networks">
+        <div class="container">
+            <div class="phone_number">
+                <h4><i class="fas fa-phone-alt"></i>+20-109-429-7057</h4>
+            </div>
+            <div class="social_icons">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-google-plus-g"></i> </a></li>
+                    <li><a href="#"> <i class="fab fa-tumblr"></i> </a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
+                    <li><a href="#"><i class="fas fa-rss"></i> </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <nav>
+                <div class="toggel_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                <ul class="menu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="trainers.html">trainers</a></li>
+                    <li><a href="classes.html">classes</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="pricing.html">pricing</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+
+                </ul>
+
+            </nav>
+            
+
+
+
+        </div>
+    </header>
+    <div class="introtitle">
+        <img src="images/blog_img1.jpg" alt="blog">
+    </div>
+<main class="trainers">
+
+    <section class="timetable">
+        <div class="container">
+        <ul class="tabs">
+            <li id="defaultOpen" onclick="openCity(event,'all')" > All Classes</li>
+            <li onclick="openCity(event,'gym')" > Gym Fitness</li>
+            <li onclick="openCity(event,'box')" > Boxing</li>
+          </ul>
+          <div class="tabbox">
+            <div class="tabs_cont" id="all">
+                <table style="width:100%">
+                  <thead>
+                    <tr>
+                      <th style="width:12%"></th>
+                      <th>MONDAY</th>
+                      <th>TUESDAY</th>
+                      <th>WEDNESDAY</th>
+                      <th>THURSDAY</th>
+                      <th>FRIDAY</th>
+                      <th>SATURDAY</th>
+                      <th>SUNDAY</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="line-height:150%">
+                      <td>05.00 - 06.00 </td>
+                      <td class="events"><a href="#">Boxing</a>
+                        05.00 - 06.00</td>
+                      <td class="events"><a href="#">Boxing</a>
+                        05.00 - 06.00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+            
+            
+                    </tr>
+                    <tr>
+                      <td>06.00 - 07.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td class="events"><a href="#">Gym Fitness</a> 06.00 - 07.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+            
+                    <tr>
+                      <td>07.00 - 08.00 </td>
+                      <td class="events"><a href="#">Cardio Fitness </a>07.00 - 08.00</td>
+                      <td class="events"> <a href="#">Cardio Fitness</a> 07.00 - 08.00</td>
+                      <td class="events" rowspan="2"><a href="#">Cardio Fitness </a> 07.00 - 08.00</td>
+                      <td class="events" rowspan="2"><a href="#">Cardio Fitness </a> 07.00 - 08.00</td>
+                      <td class="events" rowspan="2"><a href="#">Cardio Fitness </a> 07.00 - 08.00</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>08.00 - 09.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td class="events" rowspan="2"><a href="#">Indoor Cycling </a> 08.00 - 09.30</td>
+                      <td class="events" rowspan="2"><a href="#">Indoor Cycling </a> 08.00 - 09.30</td>
+                    </tr>
+                    <tr>
+                      <td>09.00 - 10.00 </td>
+                      <td class="events" rowspan="3"><a href="#">Indoor Cycling</a> 09.00 - 11.25 </td>
+                      <td class="events" rowspan="3"><a href="#">Indoor Cycling</a> 09.00 - 11.25 </td>
+                      <td></td>
+                      <td class="events"><a href="#">Indoor Cycling</a> 09.00 - 11.25 </td>
+                      <td class="events"><a href="#">Indoor Cycling</a> 09.00 - 11.25 </td>
+                    </tr>
+                    <tr>
+                      <td>10.00 - 11.00 </td>
+                      <td></td>
+                      <td class="events" rowspan="2"><a href="#">Cardio Fitness </a> 10.00 - 11.30 </td>
+                      <td class="events" rowspan="2"><a href="#">Cardio Fitness </a> 10.00 - 11.30 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 10.00 - 11.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 10.00 - 11.00 </td>
+                    </tr>
+                    <tr>
+                      <td>11.00 - 12.00 </td>
+                      <td></td>
+                      <td class="events"><a href="#">Indoor Cycling</a> 11.00 - 12.00 </td>
+                      <td class="events"><a href="#">Indoor Cycling</a> 11.00 - 12.00 </td>
+                    </tr>
+                    <tr>
+                      <td>12.00 - 13.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Gym Fitness </a>12.00 - 13.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 12.00 - 13.00 </td>
+                      <td class="events" rowspan="4"><a href="#">Boxing</a> 12.00 - 15.45</td>
+                      <td class="events"><a href="#">Gym Fitness </a> 12.00 - 13.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 12.00 - 13.00 </td>
+                    </tr>
+                    <tr>
+                      <td>13.00 - 14.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Boxing</a> 12.00 - 15.45</td>
+                      <td></td>
+            
+                    </tr>
+                    <tr>
+                      <td>14.00 - 15.00 </td>
+                      <td class="events" rowspan="4" colspan="2"><a href="#">Gym Fitness </a> 12.00 - 13.00 <br>
+                        <a href="#">Indoor Cycling</a>14.00- 16.15
+                      </td>
+            
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="events" rowspan="2"><a href="#">Cardio Fitness </a> 14.00 - 16.00 </td>
+                    </tr>
+                    <tr>
+                      <td>15.00 - 16.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Boxing</a> 12.00 - 15.45</td>
+            
+            
+                    </tr>
+                    <tr>
+                      <td>16.00 - 17.00 </td>
+                      <td></td>
+                      <td class="events" rowspan="2"><a href="#">Indoor Cycling
+                        </a> 16.00 - 17.30</td>
+                      <td class="events" rowspan="4"><a href="#">Indoor Cycling
+                        </a> 16.00 - 17.30 <br>
+                        <a href="#">Gym Fitness
+                        </a> 17.30 - 20.00 <br>
+                        <a href="#">Boxing
+                        </a> 18.00 - 20.00
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>17.00 - 18.00 </td>
+            
+                      <td></td>
+                      <td class="events"><a href="#">Gym Fitness </a> 17.00 - 18.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 17.00 - 18.00 </td>
+            
+            
+                    </tr>
+                    <tr>
+                      <td>18.00 - 19.00 </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>
+                        <a href="#">yoga pilates</a> 19.00 - 20.30
+                      </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>
+                        <a href="#">yoga pilates</a> 19.00 - 20.30
+                      </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>
+                        <a href="#">yoga pilates</a> 19.00 - 20.30
+                      </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>
+                        <a href="#">yoga pilates</a> 19.00 - 20.30
+                      </td>
+            
+                      <td></td>
+                      <td></td>
+            
+            
+            
+            
+                    </tr>
+                    <tr>
+                      <td>19.00 - 20.00 </td>
+            
+            
+                      <td class="events" rowspan="2"><a href="#">yoga pilates</a> 19.00 - 20.30</td>
+                      <td class="events" rowspan="2"><a href="#">yoga pilates</a> 19.00 - 20.30</td>
+            
+            
+                    </tr>
+                    <tr>
+                      <td>20.00 - 21.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+            
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="smallall"></div>
+              <div class="tabs_cont" id="gym">
+                <table style="width:100%">
+                  <thead>
+                    <tr>
+                      <th style="width:12%"></th>
+                      <th>MONDAY</th>
+                      <th>TUESDAY</th>
+                      <th>WEDNESDAY</th>
+                      <th>THURSDAY</th>
+                      <th>FRIDAY</th>
+                      <th>SATURDAY</th>
+                      <th>SUNDAY</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>06.00 - 07.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td class="events"><a href="#">Gym Fitness</a> 06.00 - 07.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td class="events"><a href="#">Gym Fitness </a> 06.00 - 07.00</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+            
+                    
+                   
+                      <td>10.00 - 11.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Gym Fitness </a> 10.00 - 11.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 10.00 - 11.00 </td>
+                    </tr>
+                    
+                    <tr>
+                      <td>12.00 - 13.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Gym Fitness </a>12.00 - 13.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 12.00 - 13.00 </td>
+                    <td></td>
+                      <td class="events"><a href="#">Gym Fitness </a> 12.00 - 13.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 12.00 - 13.00 </td>
+                    </tr>
+                   
+                    <tr>
+                      <td>14.00 - 15.00 </td>
+                      <td class="events" rowspan="2" ><a href="#">Gym Fitness </a>14.00 - 16.15 </td>
+                      <td class="events" rowspan="2" ><a href="#">Gym Fitness </a>14.00 - 16.15</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>   
+                    </tr>
+                    <tr>
+                      <td>15.00 - 16.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      
+            
+            
+                    </tr>
+                    <tr>
+                      <td>16.00 - 17.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="events" rowspan="4"> <a href="#">Gym Fitness
+                        </a> 17.30 - 20.00 <br>
+                        
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>17.00 - 18.00 </td>
+            
+                      <td></td>
+                      <td class="events"><a href="#">Gym Fitness </a> 17.00 - 18.00 </td>
+                      <td class="events"><a href="#">Gym Fitness </a> 17.00 - 18.00 </td>
+                      <td></td>
+                      <td></td><td></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              <div class="smallall"></div>
+              <div class="tabs_cont" id="box">
+                <table style="width:100%">
+                  <thead>
+                    <tr>
+                      <th style="width:12%"></th>
+                      <th>MONDAY</th>
+                      <th>TUESDAY</th>
+                      <th>WEDNESDAY</th>
+                      <th>THURSDAY</th>
+                      <th>FRIDAY</th>
+                      <th>SATURDAY</th>
+                      <th>SUNDAY</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="line-height:150%">
+                      <td>05.00 - 06.00 </td>
+                      <td class="events"><a  href="#">Boxing</a>
+                        05.00 - 06.00</td>
+                      <td class="events"><a href="#">Boxing</a>
+                        05.00 - 06.00</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>06.00 - 07.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+            
+                    <tr>
+                      <td>07.00 - 08.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>                    
+                    </tr>
+                    <tr>
+                      <td>10.00 - 11.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>       
+                    <tr>
+                      <td>12.00 - 13.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="events" rowspan="4"><a href="#">Boxing</a> 12.00 - 15.45</td>
+                      <td></td> <td></td> <td></td>
+                    </tr>
+                    <tr>
+                      <td>13.00 - 14.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Boxing</a> 12.00 - 15.45</td>
+                      <td></td>
+            
+                    </tr>
+                    <tr>
+                      <td>14.00 - 15.00 </td>
+                      <td></td> <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>15.00 - 16.00 </td>
+                      <td></td>
+                      <td></td>
+                      <td class="events"><a href="#">Boxing</a> 12.00 - 15.45</td>
+                      <td></td> <td></td> <td></td>
+                    </tr>
+                    <tr>
+                      <td>16.00 - 17.00 </td>
+                      <td></td> <td></td>
+                      <td></td> <td></td>
+                      <td class="events"><a href="#">Boxing
+                        </a> 18.00 - 20.00
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>        
+                    <tr>
+                      <td>18.00 - 19.00 </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>           
+                      </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>            
+                      </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>          
+                     </td>
+                      <td class="events" rowspan="2"><a href="#">Boxing</a>18.00 - 19.00<br>           
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="smallall"></div>
+          </div>
+        </div>
+
+
+        <script>
+
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i ;
+            var tab_cont = document.getElementsByClassName("tabs_cont");
+            for (i= 0; i < tab_cont.length; i++) {
+              tab_cont[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+
+          }
+          document.getElementById("defaultOpen").click();
+        </script>
+    </section>  
+    <section class="home_page classes_trainers" >
+        <div class="container">
+            <div class="our_trainers">
+                <div class="header_no1">
+                    <h2>our traners</h2>
+                </div>
+                <div class="our_trainer_cont">
+                    <div class="trainer_card">
+                        <img src="images/pic4.jpg" alt="">
+                        <div class="header">
+                            <h3>rebecca smith</h3>
+                            <h4>spinning</h4>
+                        </div>
+                        <p>Creating the perfect body is no small matter. </p>
+                        <div class="comm">
+                            <a href="#" class="active" title="love it"><i class="fas fa-heart"></i></a>
+                            <a href="#" title="like it"><i class="fas fa-thumbs-up"></i></a>
+                            <a href="#" class="active" title="teitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="active" title="face book"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer_card">
+                        <img src="images/pic5.jpg" alt="">
+                        <div class="header">
+                            <h3>john joes</h3>
+                            <h4>kik boxing</h4>
+                        </div>
+                        <p>Creating the perfect body is no small matter. </p>
+                        <div class="comm">
+                            <a href="#" title="love it"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="activeo" title="like it"><i class="fas fa-thumbs-up"></i></a>
+                            <a href="#" class="active" title="teitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="active" title="face book"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                    <i class="fal fa-angle-left left_arrow"></i>
+                    <i class="fal fa-angle-right right_arrow"></i>
+                </div>
+            </div>
+            <div class="events">
+                <div class="header_no1">
+                    <h2>next events</h2>
+                </div>
+                <div class="events_cont">
+                    <div class="event">
+                        <div class="event_head">
+                            <h4>26 gen, 2014</h4>
+                            <h5>h.12.00.h.13.00</h5>
+                        </div>
+                        <div class="image">
+                            <img src="images/pic.jpg" alt="">
+                        </div>
+                        <div class="time">
+                            <h3>aerobics</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                            <button class="booking">booking</button>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="event_head">
+                            <h4>26 gen, 2014</h4>
+                            <h5>h.12.00.h.13.00</h5>
+                        </div>
+                        <div class="image">
+                            <img src="images/pic.jpg" alt="">
+                        </div>
+                        <div class="time">
+                            <h3>spinning</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                            <button class="booking">booking</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="blog_box">
+                <div class="header_no1">
+                    <h2>form the blog</h2>
+                </div>
+                <div class="blog_items">
+                    <div class="item_row">
+                        <img src="images/pic6.jpg" alt="">
+                        <div class="text">
+                            <p>lorem ipsum dolor sit amet, conse ctetur adipiscing elit</p>
+                            <a href="#">26 may,2013</a>
+                        </div>
+                    </div>
+                    <div class="item_row">
+                        <img src="images/pic7.jpg" alt="">
+                        <div class="text">
+                            <p>lorem ipsum dolor sit amet, conse ctetur adipiscing elit</p>
+                            <a href="#">26 may,2013</a>
+                        </div>
+                    </div>
+                    <div class="item_row">
+                        <img src="images/pic8.jpg" alt="">
+                        <div class="text">
+                            <p>lorem ipsum dolor sit amet, conse ctetur adipiscing elit</p>
+                            <a href="#">26 may,2013</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_page">
+      <div class="join">
+          <div class="container">
+              <div class="join_today">
+                  <div class="text">
+                      <h3><span>WHY JOIN?</span><br> This is an awesome subhead</h3>
+                      <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium.
+                          Aliquam id odio sit amet mauris porttitor iaculis a eu dui.
+
+                      </p>
+                  </div>
+                  <button class="join_todaybtn"> join today</button>
+              </div>
+              <div class="join_today">
+                  <div class="text">
+                      <h3><span>ALREADY A MEMBER?</span><br> This is an awesome subhead</h3>
+
+                      <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium.
+                          Aliquam id odio sit amet mauris porttitor iaculis a eu dui.
+
+                      </p>
+                  </div>
+                  <div class="btn">
+                      <button> LOG IN</button>
+                      <button>View CALENDAR</button>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+    <div class="gallery_partner">
+      <div class="container">
+          <div class="gallery">
+              <div class="header_no1">
+                  <h2>Gallery</h2>
+              </div>
+              <div class="thumbs">
+                  <img src="images/pic12.jpg" alt="">
+                  <img src="images/pic13.jpg" alt="">
+                  <img src="images/pic14.jpg" alt="">
+                  <img src="images/pic15.jpg" alt="">
+                  <img src="images/pic16.jpg" alt="">
+                  <img src="images/pic17.jpg" alt="">
+                  <i class="fal fa-angle-left next"></i>
+                  <i class="fal fa-angle-right pre "></i>
+              </div>
+
+          </div>
+          <div class="partner">
+              <div class="header_no1">
+                  <h2>partner</h2>
+              </div>
+              <div class="partner_image">
+                  <img src="images/p1.png" alt="">
+                  <img src="images/p2.png" alt="">
+                  <img src="images/p3.png" alt="">
+                  <img src="images/p4.png" alt="">
+                  <img src="images/p5.png" alt="">
+                  <img src="images/p6.png" alt="">
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="twitter_box">
+    <div class="container">
+        <i class="fab fa-twitter"></i>
+        <p>RT @collis: Trade growth ideas with other founders. Look for ways to cross promote. Small startups today may be big friends later. (9/10)<span> 2 days ago</span> 
+
+        </p>
+    </div>
+</section>
+
+
+
+
+      <!-- /* start footer */ -->
+      <footer>
+        <section class="top_footer">
+            <div class="container">
+                <div class="newsletter">
+                    <h4>NEWSLETTER SIGNUP</h4>
+                    <form action="">
+                        <label for="mail">Sign up for our newsletter 
+                            and get the latest news.</label>
+                            <input type="email" name="mail" id="mail" class="mail"
+                             placeholder="insert email" required>
+
+                            <button type="submit">submit email <i class="fal fa-angle-right"></i></button>
+                    </form>
+                </div>
+                <div class="contact_info">
+                <img src="images/logo.png" alt="logo">
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .
+
+                    </p>
+                    <address>
+                        phone: <span> +20-109-429-7057 </span>
+                        <br>
+                        e-mail: <span> info@gymsports.com</span>
+                    </address>
+                </div>
+                </div>
+                <div class="menu_company">
+                    <div class="menu">
+                        <h4>menu</h4>
+                        <ul>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> about</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> trainers</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> classes</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> pricing</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="community">
+                        <h4>community</h4>
+                        <ul>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> blog</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> forum</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> support</a></li>
+                            <li><a href="#"><i class="fal fa-angle-right"></i> newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="footer_bottom">
+            <div class="social_networks">
+                <div class="container">
+                    <div class="copy_right">
+                        <h4> &copy; 2014  psd by w3layouts || &copy; 2021 Template by <a href="#">ahmed sabry</a></h4>
+                    </div>
+                    <div class="social_icons">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#"> <i class="fab fa-google-plus-g"></i> </a></li>
+                            <li><a href="#"> <i class="fab fa-tumblr"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
+                            <li><a href="#"><i class="fas fa-rss"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <!-- /* end footer */ -->
+</main>
+<script>
+
+ 
+</script>
+</body>
+
+</html>
