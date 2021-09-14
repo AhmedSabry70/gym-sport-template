@@ -162,7 +162,7 @@ input {
   padding: 0;
 }
 .introtitle::after {
-  content: "CONTACTS";
+  content: attr(intro-text);
   position: absolute;
   bottom: 0;
   left: 63px;
@@ -774,7 +774,7 @@ main .intro .container .text p {
   text-align: center;
   padding: 5px 5px 10px;
 }
-@media (max-width:380px) 
+@media (max-width:380px) {
   .events .events_cont .event {
     
     justify-content: center!important;
