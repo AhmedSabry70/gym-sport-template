@@ -971,7 +971,7 @@ main .intro .container .text p {
 .gallery_partner .gallery .thumbs > i {
   position: absolute;
   opacity: 0.8;
-  font-size: 50px;
+  font-size: 40px;
   color: rgb(0 191 240 / 40%);
   cursor: pointer;
   display: flex;
@@ -989,12 +989,12 @@ main .intro .container .text p {
 }
 .gallery_partner .gallery .thumbs > i.next {
   top: 50%;
-  left: 10px;
+  right: 10px;
   transform: translateY(-50%);
 }
 .gallery_partner .gallery .thumbs > i.pre {
   top: 50%;
-  right: 10px;
+  left: 10px;
   transform: translateY(-50%);
 }
 .gallery_partner .gallery .thumbs img {
@@ -1311,6 +1311,7 @@ footer .top_footer .contact_info address span {
 }
 .menu_company ul a i {
   margin-right: 10px;
+  font-size: 11px;
 }
 /* ____________________________________bottom footer________________________ */
 footer .footer_bottom {
