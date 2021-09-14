@@ -774,7 +774,7 @@ main .intro .container .text p {
   text-align: center;
   padding: 5px 5px 10px;
 }
-/* @media (max-width:380px) {(((((((((((((((((((((((((((((((((((______)))(()()9(0(0(0(0909090909)()()
+@media (max-width:380px) 
   .events .events_cont .event {
     
     justify-content: center!important;
@@ -807,7 +807,7 @@ main .intro .container .text p {
   
   margin-top: auto;
 }
-} */
+}
 .events .events_cont .event_head {
   width: 100%;
   display: flex;
